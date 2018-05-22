@@ -132,7 +132,41 @@ string suitName;
 // Accessor: returns a string with the rank of the card in English
 // This is just a stub! Modify it to your liking.
 string Card::get_english_rank() const {
-    return "The rank is "+rank+".";
+string rankName;
+    switch (rank) {
+        case AS:
+            rankName = "As";
+            break;
+        case DOS:
+            rankName = "Dos";
+            break;
+        case TRES:
+            rankName = "Tres";
+            break;
+        case CUATRO:
+            rankName = "Cuatro";
+            break;
+        case CINCO:
+            rankName = "Cinco";
+            break;
+        case SEIS:
+            rankName = "Seis";
+            break;
+        case SIETE:
+            rankName = "Siete";
+            break;
+        case SOTA:
+            rankName = "Jack";
+            break;
+        case CABALLO:
+            rankName = "Knight";
+            break;
+        case REY:
+            rankName = "King";
+            break;
+        default: break;
+    }
+    return rankName;
 }
 
 
