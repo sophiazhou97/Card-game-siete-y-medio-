@@ -57,8 +57,7 @@ public:
     // A vector of Cards
     Hand();
     
-    // You decide what functions you'll need...
-    
+    // You decide what functions you'll need...	    
 private:
     // You decide what fields you'll need...
 };
@@ -78,3 +77,4 @@ private:
 };
 
 #endif
+
