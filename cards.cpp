@@ -201,3 +201,6 @@ Hand::Hand(){
 Player::Player(int m){
    money=m;
 }
+int Player::get_money(){
+   return money;
+}
