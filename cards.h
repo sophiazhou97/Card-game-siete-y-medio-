@@ -68,7 +68,7 @@ public:
     // Constructor.
     //    Assigns initial amount of money
     Player(int m);
-    
+    int get_money();    
     // You decide what functions you'll need...
     
 private:
