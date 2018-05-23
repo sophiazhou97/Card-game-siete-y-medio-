@@ -25,6 +25,6 @@ int main(){
    cout<<"Your cards:\n"
    Card() card1;
    cout<<card1.get_spanish_rank()<<card1.get_spanish_suit();
-   cout<<card1.get_english_rank()<<  
+   cout<<card1.get_english_rank()
     return 0;
 }
