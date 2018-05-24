@@ -190,7 +190,7 @@ bool Card::operator < (Card card2) const {
  ************************************************* */
 // Implemente the member functions of the Hand class here.
 Hand::Hand(){
-   vector<Cards>v;
+   vector<Card>v;
 }
 
 
